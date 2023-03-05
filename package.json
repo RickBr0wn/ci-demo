@@ -18,9 +18,7 @@
 		"test:watch": "vitest",
 		"test": "vitest run",
 		"lint": "tsc",
-		"ci": "pnpm lint && pnpm test && pnpm build",
-		"watch": "npm run build -- --watch src",
-		"prepublishOnly": "npm run build"
+		"ci": "pnpm lint && pnpm test && pnpm build"
 	},
 	"devDependencies": {
 		"tsup": "^6.6.3",
